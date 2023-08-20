@@ -82,8 +82,24 @@ h1 {
 
 .col,
 .col-1,
-.col-11 {
+.col-11,
+.col-6 {
     border: 2px dashed red;
     height: 100%;
     margin: 0;
+}
+
+/*Alinhamento vertical*/
+
+.vertical {
+    height: 250px;
+    border-color: coral;
+}
+
+.vertical .row {
+    height: 100%;
+}
+
+.col-6 {
+    height: 50px;
 }
